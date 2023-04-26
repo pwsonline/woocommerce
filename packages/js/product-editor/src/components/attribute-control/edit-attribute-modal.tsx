@@ -17,7 +17,7 @@ import { __experimentalTooltip as Tooltip } from '@woocommerce/components';
 import {
 	AttributeTermInputField,
 	CustomAttributeTermInputField,
-} from '../attribute-term-input-field';
+} from '../../../../../../plugins/woocommerce-admin/client/products/fields/attribute-term-input-field';
 import { EnhancedProductAttribute } from '../../hooks/use-product-attributes';
 
 import './edit-attribute-modal.scss';

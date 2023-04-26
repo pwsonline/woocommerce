@@ -21,12 +21,12 @@ import {
  * Internal dependencies
  */
 import './new-attribute-modal.scss';
-import { AttributeInputField } from '../attribute-input-field';
+import { AttributeInputField } from '../../../../../../plugins/woocommerce-admin/client/products/fields/attribute-input-field';
 import {
 	AttributeTermInputField,
 	CustomAttributeTermInputField,
-} from '../attribute-term-input-field';
-import { EnhancedProductAttribute } from '~/products/hooks/use-product-attributes';
+} from '../../../../../../plugins/woocommerce-admin/client/products/fields/attribute-term-input-field';
+import { EnhancedProductAttribute } from '~/../../../packages/js/product-editor/src/hooks/use-product-attributes';
 import { getProductAttributeObject } from './utils';
 
 type NewAttributeModalProps = {
